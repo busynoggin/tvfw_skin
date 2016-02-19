@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" product-name="tvfw_skin" date="2015-09-14T22:11:08-05:00">
+		<header/>
+		<body>
+			<trans-unit id="flux.standardPage">
+				<source>Example page</source>
+			</trans-unit>
+			<trans-unit id="flux.standardPage.description">
+				<source>Example template for Fluid pages</source>
+			</trans-unit>
+			<trans-unit id="flux.f1a">
+				<source>F1a</source>
+			</trans-unit>
+			<trans-unit id="flux.f1b">
+				<source>F1b</source>
+			</trans-unit>
+			<trans-unit id="flux.f1c">
+				<source>F1c</source>
+			</trans-unit>
+			<trans-unit id="flux.f1d">
+				<source>F1d</source>
+			</trans-unit>
+			<trans-unit id="flux.f1e">
+				<source>F1e</source>
+			</trans-unit>
+			<trans-unit id="flux.f1f">
+				<source>F1f</source>
+			</trans-unit>
+			<trans-unit id="flux.f2a">
+				<source>F2a</source>
+			</trans-unit>
+			<trans-unit id="flux.f2b">
+				<source>F2b</source>
+			</trans-unit>
+			<trans-unit id="flux.f2c">
+				<source>F2c</source>
+			</trans-unit>
+			<trans-unit id="flux.f2d">
+				<source>F2d</source>
+			</trans-unit>
+			<trans-unit id="flux.f2e">
+				<source>F2e</source>
+			</trans-unit>
+			<trans-unit id="flux.f3a">
+				<source>F3a</source>
+			</trans-unit>
+			<trans-unit id="flux.f3b">
+				<source>F3b</source>
+			</trans-unit>
+			<trans-unit id="flux.f3c">
+				<source>F3c</source>
+			</trans-unit>
+			<trans-unit id="flux.f3d">
+				<source>F3d</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

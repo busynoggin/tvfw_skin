@@ -1,0 +1,31 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	xmlns:f="http://typo3.org/ns/TYPO3/Fluid/ViewHelpers"
+	xmlns:flux="http://typo3.org/ns/FluidTYPO3/Flux/ViewHelpers"
+	xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers">
+
+	<f:layout name="Page" />
+
+	<f:section name="vars">
+		<v:variable.set name="pageId" value="f1e" />
+		<v:variable.set name="pageClass" value="home" />
+	</f:section>
+
+	<f:section name="Configuration">
+		<flux:form id="f1e" icon="{f:uri.resource(path: 'Icons/Page/f1e.gif')}">
+			<f:render section="Default" partial="Backend/PageForm" arguments="{_all}" />
+		</flux:form>
+		<flux:grid>
+			<flux:grid.row>
+				<flux:grid.column colPos="99" label="Feature" />
+			</flux:grid.row>
+			<flux:grid.row>
+				<flux:grid.column colPos="0" label="Main Content"/>
+			</flux:grid.row>
+		</flux:grid>
+	</f:section>
+
+	<f:section name="Main">
+		<f:render section="MainContent" partial="ContentBlocks" optional="true" arguments="{_all}"/>
+		<f:render section="GeneratedContent2" partial="ContentBlocks" optional="true" arguments="{_all}"/>
+	</f:section>
+</div>

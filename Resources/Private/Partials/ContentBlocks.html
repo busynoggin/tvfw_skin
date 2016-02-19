@@ -1,0 +1,36 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="MainContent">
+ 		<div id="contentBlock-1">
+ 			<f:render section="Headline" partial="Header" optional="true" arguments="{_all}"/>
+ 			<v:content.render column="0" />
+ 		</div>
+ 	</f:section>
+
+	<f:section name="SecondaryContent">
+		<div id="contentBlock-2">
+			<v:content.render column="1" />
+		</div>
+	</f:section>
+
+	<f:section name="TertiaryContent">
+		<div id="contentBlock-3">
+			<v:content.render column="2" />
+		</div>
+	</f:section>
+
+	<f:section name="GeneratedContent1">
+		<div id="generatedContent-1">
+			<v:content.render pageUid="{v:variable.typoscript(path: 'plugin.tx_tvfwskin.generatedContent-1.source')}" />
+		</div>
+	</f:section>
+
+	<f:section name="GeneratedContent2">
+		<div id="generatedContent-2">
+			<v:content.render pageUid="{v:variable.typoscript(path: 'plugin.tx_tvfwskin.generatedContent-2.source')}" />
+		</div>
+	</f:section>
+
+</div>

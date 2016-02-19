@@ -1,0 +1,11 @@
+page.bodyTag = <!-- body -->
+
+plugin.tx_tvfwskin {
+	view {
+		templateRootPaths.0 = {$plugin.tx_tvfwskin.view.templateRootPaths.default}
+		partialRootPaths.0 = {$plugin.tx_tvfwskin.view.partialRootPaths.default}
+		layoutRootPaths.0 = {$plugin.tx_tvfwskin.view.layoutRootPaths.default}
+	}
+	generatedContent-1.source = {$plugin.tx_tvfwskin.generatedContent-1.source}
+	generatedContent-2.source = {$plugin.tx_tvfwskin.generatedContent-2.source}
+}

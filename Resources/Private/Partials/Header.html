@@ -1,0 +1,26 @@
+<div xmlns="http://www.w3.org/1999/xhtml" lang="en"
+	 xmlns:v="http://typo3.org/ns/FluidTYPO3/Vhs/ViewHelpers"
+	 xmlns:f="http://typo3.org/ns/fluid/ViewHelpers">
+
+	<f:section name="MainHeader">
+		<div id="header">Header will go here</div>
+ 	</f:section>
+
+	<f:section name="Feature">
+		<f:if condition="{v:content.get(column: 99)}">
+			<div id="feature" class="{featureBleed}">
+				<!--TYPO3SEARCH_begin-->
+				<v:content.render column="99" slide="-1" />
+				<!--TYPO3SEARCH_end-->
+				<div class="clearOnly">&nbsp;</div>
+			</div><!-- end #feature -->
+		</f:if>
+	</f:section>
+
+	<f:section name="Headline">
+		<f:if condition="{autoHeadline}">
+			<h1 class="main-headline">{v:page.info(field: 'title')}</h1>
+		</f:if>
+	</f:section>
+
+</div>

@@ -1,0 +1,12 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+{namespace v=FluidTYPO3\Vhs\ViewHelpers}
+
+<f:layout name="Page" />
+<f:render partial="Head" arguments="{_all}"/>
+<f:render section="vars" />
+
+<body id="{pageId}" class="{pageClass}">
+	<f:render section="MainHeader" partial="Header" optional="true" arguments="{_all}" />
+	<f:render section="Feature" partial="Header" optional="true" arguments="{_all}" />
+	<f:render section="Main" />
+	<f:render section="MainFooter" partial="Footer" optional="true" arguments="{_all}" />
